@@ -1,11 +1,24 @@
 {
+  "name": "nuxt4-starter",
   "private": true,
+  "type": "module",
   "scripts": {
     "dev": "nuxt dev",
     "build": "nuxt build",
-    "start": "node .output/server/index.mjs"
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "typecheck": "nuxt typecheck",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "nuxt": "4.5.2",
+    "vue": "3.5.43"
   },
   "devDependencies": {
-    "nuxt3": "3.0.0-27251455.110b2b2"
+    "typescript": "^6.0.0",
+    "vue-tsc": "3.3.11"
+  },
+  "engines": {
+    "node": ">=22.12.0"
   }
 }

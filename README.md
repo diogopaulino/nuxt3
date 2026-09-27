@@ -1,21 +1,28 @@
-# Nuxt 3 Preview Starter
+# Nuxt 4 Starter
 
-> **Legacy experiment (2021).** This repository uses a pre-release build of Nuxt 3 and is kept only as a historical reference.
+A minimal **Nuxt 4** project, modernized from the original 2021 Nuxt 3 preview starter.
 
-The project was created before Nuxt 3 became stable. Nuxt 3 reached end-of-life on **July 31, 2026**, and the current framework line is Nuxt 4.
+## Stack
 
-For a new project, use the current Nuxt starter:
+- Nuxt 4.5.2
+- Vue 3.5.43
+- TypeScript
+- Node.js 22+
+
+## Setup
 
 ```bash
-npm create nuxt@latest
+npm install
+npm run dev
 ```
 
-Current documentation: https://nuxt.com/docs
+## Quality checks
 
-## Historical stack
+```bash
+npm run typecheck
+npm run build
+```
 
-- Nuxt 3 pre-release
-- Vue 3
-- TypeScript
+The old pre-release `nuxt3` dependency and legacy starter structure were removed. This repository now follows the current Nuxt 4 application layout.
 
-Upgrading this starter in place has little value because it contains no application-specific code; generating a fresh Nuxt project is simpler and produces the current recommended structure automatically.
+Docs: https://nuxt.com/docs/4.x
