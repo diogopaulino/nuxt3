@@ -23,5 +23,6 @@
     "node": ">=22.12.0"
   },
   "description": "Minimal modern Nuxt 4 starter with Vue and TypeScript.",
-  "packageManager": "npm@10.9.8"
+  "packageManager": "npm@10.9.8",
+  "license": "MIT"
 }
