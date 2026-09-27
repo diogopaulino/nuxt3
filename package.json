@@ -8,7 +8,8 @@
     "generate": "nuxt generate",
     "preview": "nuxt preview",
     "typecheck": "nuxt typecheck",
-    "postinstall": "nuxt prepare"
+    "postinstall": "nuxt prepare",
+    "check": "npm run typecheck && npm run build"
   },
   "dependencies": {
     "nuxt": "4.5.2",
@@ -20,5 +21,7 @@
   },
   "engines": {
     "node": ">=22.12.0"
-  }
+  },
+  "description": "Minimal modern Nuxt 4 starter with Vue and TypeScript.",
+  "packageManager": "npm@10.9.8"
 }

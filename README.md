@@ -1,50 +1,18 @@
 <h1 align="center">Nuxt 4 Starter</h1>
 
-<p align="center">
-  Minimal, current Nuxt starter with TypeScript and a clean application structure.
-</p>
+<p align="center">Minimal Nuxt application with Vue, TypeScript and a clean default structure.</p>
 
 <p align="center">
   <a href="https://github.com/diogopaulino/nuxt3/actions/workflows/ci.yml"><img alt="CI" src="https://github.com/diogopaulino/nuxt3/actions/workflows/ci.yml/badge.svg?branch=main"></a>
   <img alt="Node.js 22+" src="https://img.shields.io/badge/Node.js-22%2B-339933?logo=node.js&logoColor=white">
-  <img alt="Nuxt 4" src="https://img.shields.io/badge/Nuxt-4.5-00DC82?logo=nuxt&logoColor=white">
+  <img alt="Nuxt 4" src="https://img.shields.io/badge/Nuxt-4-00DC82?logo=nuxt&logoColor=white">
 </p>
 
-## About
+## Overview
 
-A small **Nuxt 4** starter designed to stay close to the framework defaults.
+A deliberately small Nuxt 4 starter that stays close to framework conventions.
 
-This repository started in 2021 as a Nuxt 3 preview experiment. It now uses the current Nuxt application structure and stable dependencies.
-
-## Stack
-
-| | |
-|---|---|
-| Framework | Nuxt 4.5.2 |
-| UI | Vue 3.5.43 |
-| Language | TypeScript |
-| Runtime | Node.js 22+ |
-
-## Quick start
-
-```bash
-npm install
-npm run dev
-```
-
-Open **http://localhost:3000**.
-
-## Commands
-
-| Command | Purpose |
-|---|---|
-| `npm run dev` | Development server |
-| `npm run build` | Production build |
-| `npm run preview` | Preview production build |
-| `npm run generate` | Static generation |
-| `npm run typecheck` | Type validation |
-
-## Project structure
+## Structure
 
 ```text
 app/
@@ -54,9 +22,33 @@ nuxt.config.ts
 tsconfig.json
 ```
 
-Intentionally small so the framework conventions stay easy to understand.
+## Run
 
-## Learn more
+```bash
+npm ci
+npm run dev
+```
 
-- [Nuxt documentation](https://nuxt.com/docs/4.x)
-- [Vue documentation](https://vuejs.org/)
+Open **http://localhost:3000**.
+
+## Quality
+
+```bash
+npm run check
+```
+
+This runs Nuxt type checking and a production build.
+
+## Commands
+
+| Command | Purpose |
+|---|---|
+| `npm run dev` | Development server |
+| `npm run check` | Typecheck + production build |
+| `npm run preview` | Preview the production build |
+| `npm run generate` | Static generation |
+
+## Documentation
+
+- [Nuxt](https://nuxt.com/docs/4.x)
+- [Vue](https://vuejs.org/)
