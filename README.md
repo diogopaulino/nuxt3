@@ -3,7 +3,7 @@
 <p align="center">Minimal Nuxt application with Vue, TypeScript and a clean default structure.</p>
 
 <p align="center">
-  <a href="https://github.com/diogopaulino/nuxt3/actions/workflows/ci.yml"><img alt="CI" src="https://github.com/diogopaulino/nuxt3/actions/workflows/ci.yml/badge.svg?branch=main"></a>
+  <a href="https://github.com/diogopaulino/nuxt3/actions/workflows/ci.yml"><img alt="CI" src="https://github.com/diogopaulino/nuxt3/actions/workflows/ci.yml/badge.svg?branch=master"></a>
   <img alt="Node.js 22+" src="https://img.shields.io/badge/Node.js-22%2B-339933?logo=node.js&logoColor=white">
   <img alt="Nuxt 4" src="https://img.shields.io/badge/Nuxt-4-00DC82?logo=nuxt&logoColor=white">
 </p>
