@@ -17,12 +17,12 @@
   },
   "devDependencies": {
     "typescript": "^6.0.0",
-    "vue-tsc": "3.3.11"
+    "vue-tsc": "3.3.12"
   },
   "engines": {
     "node": ">=22.12.0"
   },
   "description": "Minimal modern Nuxt 4 starter with Vue and TypeScript.",
-  "packageManager": "npm@10.9.8",
+  "packageManager": "npm@10.9.9",
   "license": "MIT"
 }
